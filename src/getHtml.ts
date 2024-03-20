@@ -529,11 +529,11 @@ export function createEditorHtml(context: vscode.ExtensionContext, initialConten
 							be lost)!</li>
 						<li>Sorting state is exported</li>
 						<li>All cell values are strings thus sorting might behave differently than expected</li>
-						<li>Copy & Past use tab (<div class="keys">⇥</div>) as separator (same as excel)</li>
+						<li>Copy & Paste use tab (<div class="keys">⇥</div>) as separator (same as excel)</li>
 						<li>You cannot change the new line character (because vs code automatically converts it to the file setting
 							i think)
 						</li>
-						<li>If a row has more cell than the others empty cells are added to match the row with the highest cell
+						<li>If a row has more cells than the others, empty cells are added to match the row with the highest cell
 							count</li>
 						<li>Extension configuration is only applied for new editors</li>
 					</ul>
